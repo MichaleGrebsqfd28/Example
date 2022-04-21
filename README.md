@@ -1,0 +1,2 @@
+# Example
+Application: TCPConnect, TCPRecv, TCPSend ; Description: Windows Sockets Error Return + Translation ; ; WSAGetLastError: ; http://msdn.microsoft.com/en-us/library/ms740668.aspx ; ; FormatMessage: ; http://msdn.microsoft.com/en-us/library/ms679351.aspx ; ; Related: DllCall('Kernel32.dll', 'int', 'GetLastError') ; ; Example: YES ;=============================================================
